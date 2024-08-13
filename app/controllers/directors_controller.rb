@@ -14,6 +14,12 @@ matching_records = Director.where({:id => the_id})
   render ({ :template => "director_templates/details"})
 end
   
+def youngest
+  render ({ :template => "director_templates/youngest"})
+end
 
+def eldest
+  render ({ :template => "director_templates/eldest"})
+end
 
 end
